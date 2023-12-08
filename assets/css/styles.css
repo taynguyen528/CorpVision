@@ -1947,3 +1947,241 @@ div#small-dialog iframe {
     text-align: center;
     border: none;
 }
+
+/* Services */
+.our__service {
+    padding: 150px 0;
+    background-color: var(--bg-dark);
+}
+.our__service .our__service--top h2 {
+    width: 710px;
+    margin: 0 auto;
+}
+
+.our__service--block {
+    display: flex;
+    gap: 30px;
+}
+.our__service--item {
+    width: 50%;
+    text-align: center;
+    background-color: var(--bg-light);
+    padding: 40px;
+}
+
+.our__service--item .button {
+    border: none;
+    color: #fff;
+}
+
+.service__wrap--img img {
+    width: 648px;
+}
+
+.our__service--block.block-2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* BEAUTIFULLY CRAFTED CREATIVE SOLUTIONS */
+.served__industries {
+    padding: 150px 0;
+    background-color: var(--bg-light);
+}
+
+.served__industries--item {
+    display: flex;
+    gap: 20px;
+    background-color: var(--bg-dark);
+    width: calc(33.333% - 20px);
+    padding: 40px 30px;
+
+    border-radius: 10px;
+}
+
+.served__industries--item i {
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+.served__industries--bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.served__industries--title {
+    color: var(--sub-color);
+    font-size: 24px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.served__industries--title:hover {
+    color: var(--main-color);
+}
+
+.served__industries--desc {
+    color: var(--text);
+}
+
+/* INNOVATIVE TECHNOLOGY */
+.service__info {
+    background-image: url(../img/service/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    padding: 150px 0;
+}
+
+.service__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    z-index: -1;
+}
+
+.service__info--wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__info--right {
+    padding: 50px;
+    background-color: var(--bg-light);
+    border-radius: 10px;
+}
+
+.service__form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.service__form input {
+    padding: 20px;
+    border: none;
+    background-color: var(--bg-dark);
+    border-radius: 10px;
+}
+
+.service__form textarea {
+    background-color: var(--bg-dark);
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+
+.service__info--right h3 {
+    color: var(--sub-color);
+}
+
+.service__info--right .desc {
+    color: var(--text);
+}
+
+.service__form .button {
+    border: none;
+    width: 50%;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.service__form .button:hover {
+    opacity: 0.8;
+}
+
+.service__info--left .title {
+    width: 530px;
+}
+
+.service__content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.service__content i {
+    font-size: 40px;
+}
+
+.service__content .service__wrap .service__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service__content .service__wrap .service__desc {
+    font-size: 17px;
+    color: #eee;
+}
+
+.service__desc a {
+    margin-top: 10px;
+    color: #eee;
+    opacity: 0.8;
+}
+
+.service__content--border {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 30px 0;
+}
+
+/* SOLUTIONS */
+
+/*     transform: translateY(-0.25rem);
+    box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px; */
+
+.solutions {
+    padding: 150px 0;
+    background-color: var(--bg-dark);
+}
+
+.solutions .title h2 {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.solutions__list {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.solutions__item {
+    background-color: var(--bg-light);
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+.solutions__list .solutions__item .title h3 {
+    margin: 15px 0;
+    font-size: 22px;
+    color: var(--sub-color);
+    transition: 0.5s all;
+}
+
+.solutions__list .solutions__item .title .desc {
+    font-size: 17px;
+    color: var(--text);
+}
+
+.solutions__item:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px,
+        rgba(71, 63, 79, 0.16) 0px 5px 10px;
+}
+
+.solutions__item .title h3:hover {
+    color: var(--main-color);
+}
