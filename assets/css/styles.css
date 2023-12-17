@@ -1508,13 +1508,13 @@ div#small-dialog iframe {
     position: absolute;
     border-radius: 25% 70% 84% 22% / 42% 75% 25% 75%;
     box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.2);
-    width: 500px;
     height: 500px;
     background: var(--main-color);
     opacity: 0.4;
     top: 0;
     z-index: -1;
 }
+
 .about2__list {
     display: flex;
     align-items: center;
@@ -1524,14 +1524,17 @@ div#small-dialog iframe {
 
 .about2__item {
     display: flex;
+    height: 100%;
     padding: 50px 35px;
     border-radius: 10px;
     background-color: var(--bg-dark);
     gap: 30px;
 }
+.about2__list .row{
+    justify-content: center;
+}
 
 .about2__desc {
-    width: 250px;
     color: #7e7d7d;
 }
 
@@ -1568,16 +1571,14 @@ div#small-dialog iframe {
 
 .design__left .title h2 {
     margin: 20px 0 30px;
-    width: 600px;
 }
 
 .design__right {
-    width: 50%;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
 }
 .design__right img {
-    width: 270px;
+    width: 50%;
     object-fit: cover;
     border-radius: 10px;
     display: block;
@@ -1598,7 +1599,6 @@ div#small-dialog iframe {
 }
 
 .design__left--item .desc {
-    width: 300px;
     font-size: 17px;
 }
 
@@ -1672,6 +1672,7 @@ div#small-dialog iframe {
 }
 
 .team__item img {
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -1838,6 +1839,9 @@ div#small-dialog iframe {
 .together__content .title {
     width: 55%;
 }
+.together .container .row {
+    align-items: center;
+}
 .button__together {
     background-color: var(--main-color);
     color: #fff;
@@ -1869,8 +1873,11 @@ div#small-dialog iframe {
 }
 
 .contact .title h3 {
-    width: 800px;
     margin: 0 auto;
+}
+
+.contact__info .row {
+    justify-content: center;
 }
 
 .contact__info--list {
@@ -1885,7 +1892,6 @@ div#small-dialog iframe {
     padding: 25px;
     background-color: var(--bg-light);
     gap: 20px;
-    width: calc(100% / 3);
 }
 
 .contact__icon i {
@@ -1954,7 +1960,6 @@ div#small-dialog iframe {
     background-color: var(--bg-dark);
 }
 .our__service .our__service--top h2 {
-    width: 710px;
     margin: 0 auto;
 }
 
@@ -1963,10 +1968,10 @@ div#small-dialog iframe {
     gap: 30px;
 }
 .our__service--item {
-    width: 50%;
     text-align: center;
     background-color: var(--bg-light);
     padding: 40px;
+    height: 100%;
 }
 
 .our__service--item .button {
@@ -1975,7 +1980,7 @@ div#small-dialog iframe {
 }
 
 .service__wrap--img img {
-    width: 648px;
+    width: 100%;
 }
 
 .our__service--block.block-2 {
@@ -1993,9 +1998,8 @@ div#small-dialog iframe {
     display: flex;
     gap: 20px;
     background-color: var(--bg-dark);
-    width: calc(33.333% - 20px);
     padding: 40px 30px;
-
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -2033,7 +2037,7 @@ div#small-dialog iframe {
     background-position: center;
     position: relative;
     z-index: 0;
-    padding: 150px 0;
+    padding-bottom: 3rem;
 }
 
 .service__overlay {
@@ -2142,9 +2146,10 @@ div#small-dialog iframe {
     padding: 150px 0;
     background-color: var(--bg-dark);
 }
-
+.solutions .container .row {
+    justify-content: center;
+}
 .solutions .title h2 {
-    width: 750px;
     margin: 0 auto;
 }
 
